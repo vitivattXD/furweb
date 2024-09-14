@@ -1,17 +1,19 @@
 ---
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
-console.log('This runs in your terminal, not the browser!');
+import Layout from "../layout/Layout.astro";
+import Card from "../components/Card.astro";
 ---
-<!-- Below is your "component template." It's just HTML, but with
-    some magic sprinkled in to help you build great templates. -->
-<html>
-  <body>
-    <h1>Hello, World!</h1>
-  </body>
-</html>
-<style>
-  h1 {
-    color: orange;
-  }
-</style>
+
+<!-- for infomation in card -->
+ <layout 
+        title="Diceko the furry artist"
+        description="hi this is my personal website. and yes this first time to make website for leaning if you have quastion please contact me or want to know me just click icon.">
+      <Card  name="diceko vt"
+             position="furry enjoy // furry artist // beginner coding"
+             aboutMe="i'm furry artist with manga lover(weeb) but am not sigle lmaooo haha so my art is not good for someone if you love you can support me with commision!"
+             tiktok="https://www.tiktok.com/@d1c3k0"
+             github="https://github.com/vitivattXD"
+             telegram="https://t.me/diceko01"
+             twitterx="https://x.com/luktao101"
+             facebook="https://www.facebook.com/vitivat.tarapong"
+      />
+      </layout>
